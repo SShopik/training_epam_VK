@@ -10,11 +10,14 @@
     android:orientation="horizontal">
 
     <ImageButton
-        android:layout_width="24dp"
-        android:layout_height="22dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxHeight="25dp"
+        android:maxWidth="25dp"
         android:src="@drawable/left_menu"
         android:background="?attr/selectableItemBackground"
-
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
         android:layout_marginLeft="@dimen/marg_left"
         android:layout_marginRight="@dimen/marg_right"
         android:layout_gravity="center_vertical"
@@ -28,13 +31,16 @@
         android:layout_width="wrap_content"
 
         android:text="@string/news"
+        android:textSize="25dp"
+        android:drawableRight="@drawable/triangle"
+        android:drawablePadding="5dp"
         android:layout_marginLeft="@dimen/marg_left"
         android:layout_marginRight="@dimen/marg_right"
 
 
         />
 
-    <ImageView
+   <!-- <ImageView
         android:layout_height="6dp"
         android:layout_width="wrap_content"
         android:src="@drawable/triangle"
@@ -42,7 +48,7 @@
 
 
 
-        />
+        />-->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -54,7 +60,10 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
+        android:maxWidth="25dp"
+        android:maxHeight="25dp"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
         android:layout_marginLeft="@dimen/marg_left"
         android:layout_marginRight="@dimen/marg_right"
         android:src="@drawable/search"

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hieght_bar"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_height="45dp"
+            android:layout_width="45dp"
+            android:src="@drawable/round"
+            android:layout_marginLeft="@dimen/marg_left"
+            android:layout_marginRight="@dimen/marg_right"
+            android:layout_gravity="center_vertical"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/online"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:layout_height="22dp"
+            android:layout_width="8dp"
+            android:src="@drawable/right_menu_list"
+            android:layout_marginLeft="@dimen/marg_left"
+            android:layout_marginRight="@dimen/marg_right"
+            android:layout_gravity="center_vertical"
+
+            />
+
+
+    </LinearLayout>
+</merge>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/hieght_footer"
+    android:orientation="horizontal"
+    >
+    <ImageView
+        android:layout_height="25dp"
+        android:layout_width="25dp"
+        android:src="@drawable/like"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_vertical"
+
+        />
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="20"
+
+        />
+    <ImageView
+        android:layout_height="25dp"
+        android:layout_width="25dp"
+        android:src="@drawable/rupar"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_gravity="center_vertical"
+
+
+        />
+
+
+</LinearLayout>
+</merge>

@@ -24,7 +24,13 @@
 
 
         />
-
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:clickable="true"
+        android:onClick="onClick"
+        >
     <TextView
         android:layout_gravity="center_vertical"
         android:layout_height="wrap_content"
@@ -32,23 +38,22 @@
 
         android:text="@string/news"
         android:textSize="25dp"
-        android:drawableRight="@drawable/triangle"
-        android:drawablePadding="5dp"
         android:layout_marginLeft="@dimen/marg_left"
         android:layout_marginRight="@dimen/marg_right"
 
 
         />
 
-   <!-- <ImageView
+    <ImageView
         android:layout_height="6dp"
         android:layout_width="wrap_content"
         android:src="@drawable/triangle"
         android:layout_gravity="center_vertical"
 
 
+        />
 
-        />-->
+        </LinearLayout>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

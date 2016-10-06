@@ -4,6 +4,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/hieght_bar"
         android:orientation="horizontal"
+
         >
 
         <ImageView
@@ -15,13 +16,29 @@
             android:layout_gravity="center_vertical"
 
             />
-        <TextView
+        <LinearLayout
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:gravity="center_vertical"
-            android:text="@string/online"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
             android:layout_weight="1"
+
+            >
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Priroda"
+            android:textSize="18dp"
             />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="20 minut nazad"
+            />
+        </LinearLayout>
+
+
+
         <ImageView
             android:layout_height="22dp"
             android:layout_width="8dp"

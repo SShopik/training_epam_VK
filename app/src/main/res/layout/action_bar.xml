@@ -21,6 +21,8 @@
         android:layout_marginLeft="@dimen/marg_left"
         android:layout_marginRight="@dimen/marg_right"
         android:layout_gravity="center_vertical"
+        android:onClick="startMenu"
+        android:contentDescription="menu"
 
 
         />
@@ -65,8 +67,8 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:maxWidth="25dp"
-        android:maxHeight="25dp"
+        android:maxWidth="20dp"
+        android:maxHeight="20dp"
         android:scaleType="fitXY"
         android:adjustViewBounds="true"
         android:layout_marginLeft="@dimen/marg_left"

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@drawable/image_1"
+    android:paddingLeft="15dp"
+    >
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitXY"
+        android:id="@+id/image_round"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/image_round"
+        android:text="Nature"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/name"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/name"
+        android:text="online"
+        android:textColor="@android:color/white"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="25dp"
+        android:maxHeight="25dp"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:src="@drawable/search"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        />
+
+</RelativeLayout>

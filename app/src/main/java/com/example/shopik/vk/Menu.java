@@ -1,12 +1,13 @@
 package com.example.shopik.vk;
 
+import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
 
-public class Menu extends AppCompatActivity {
+public class Menu extends Activity {
 
     Bitmap bitmap;
     Bitmap finalBitmap;
@@ -22,6 +23,8 @@ public class Menu extends AppCompatActivity {
 
         ImageView imageView = (ImageView) findViewById(R.id.image_round);
         imageView.setImageBitmap(finalBitmap);
+
+
 
     }
 

@@ -3,5 +3,18 @@
     <string name="news">NEWS</string>
     <string name="what_is">What is new?</string>
     <string name="online">online</string>
+    <string name="menu_news">Новости</string>
+    <string name="answer">Ответы</string>
+    <string name="sms">Сообщения</string>
+    <string name="Friends">Друзья</string>
+    <string name="group">Группы</string>
+    <string name="fotos">Фотографии</string>
+    <string name="vidios">Видеозаписи</string>
+    <string name="audio">Аудиозаписи</string>
+    <string name="games">Игры</string>
+    <string name="beast">Закладки</string>
+    <string name="search">Поиск</string>
+    <string name="setings">Настройки</string>
+    
     <string name="foto">Природа — вечно изменчивое облако; никогда не оставаясь одной и той же, она всегда остается сама собой. Ральф Эмерсон</string>
 </resources>

@@ -4,6 +4,15 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="marg_left">15dp</dimen>
     <dimen name="marg_right">15dp</dimen>
+    <dimen name="marg_left_bar">10dp</dimen>
+    <dimen name="marg_right_bar">10dp</dimen>
     <dimen name="hieght_bar">60dp</dimen>
     <dimen name="hieght_footer">50dp</dimen>
+    <dimen name="text_size">20sp</dimen>
+    <dimen name="text_size_buttom">15sp</dimen>
+    <dimen name="margin_square">265dp</dimen>
+    <dimen name="margin_unread_sms">273dp</dimen>
+    <dimen name="text_size_what_new">17sp</dimen>
+    <dimen name="text_size_action_bar">23sp</dimen>
+    <dimen name="text_size_information">16sp</dimen>
 </resources>

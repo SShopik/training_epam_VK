@@ -1,44 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/skrol"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
 
 
-    xmlns:android="http://schemas.android.com/apk/res/android">
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.example.shopik.vk.MainActivity">
+    android:layout_height="match_parent">
 
-    <include
-        android:layout_width="wrap_content"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        layout="@layout/action_bar" />
+        android:orientation="vertical"
+        tools:context="com.example.shopik.vk.MainActivity">
 
-    <include
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        layout="@layout/what_is_new"
-        />
-    <include
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        layout="@layout/line_"
-        />
-    <include
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        layout="@layout/informanion"
-        />
-    <include
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        layout="@layout/line_"
-        />
+        <include layout="@layout/action_bar" />
 
-</LinearLayout>
+        <include layout="@layout/what_is_new" />
+
+        <include layout="@layout/line_" />
+
+        <include layout="@layout/informanion" />
+
+        <include layout="@layout/line_" />
+
+    </LinearLayout>
 </ScrollView>

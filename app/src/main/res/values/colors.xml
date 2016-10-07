@@ -5,4 +5,5 @@
     <color name="colorAccent">#FF4081</color>
     <color name="action_bar">#5181b8</color>
     <color name="trabsp">#80FFFFFF</color>
+    <color name="text_gray_color">#8c8d8f</color>
 </resources>

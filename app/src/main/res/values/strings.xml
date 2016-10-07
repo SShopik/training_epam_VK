@@ -1,8 +1,7 @@
 <resources>
     <string name="app_name"></string>
-    <string name="news">NEWS</string>
-    <string name="what_is">What is new?</string>
-    <string name="online">online</string>
+    <string name="news">Новости</string>
+    <string name="what_is">Что у Вас нового?</string>
     <string name="menu_news">Новости</string>
     <string name="answer">Ответы</string>
     <string name="sms">Сообщения</string>
@@ -15,6 +14,18 @@
     <string name="beast">Закладки</string>
     <string name="search">Поиск</string>
     <string name="setings">Настройки</string>
+    <string name="nature">Природа</string>
+    <string name="last_visit">20 минут назад</string>
+    <string name="online">В сети</string>
+    <string name="square">Квадрат</string>
+    <string name="unread_sms">8</string>
+    <string name="ava">Аватарка</string>
+    <string name="right_menu">Правое меню</string>
+    <string name="menu">Меню</string>
+    <string name="likes">14</string>
+    <string name="like">Лайки</string>
+
+
     
     <string name="foto">Природа — вечно изменчивое облако; никогда не оставаясь одной и той же, она всегда остается сама собой. Ральф Эмерсон</string>
 </resources>

@@ -1,48 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
+
     <include
-        android:layout_height="match_parent"
-        android:layout_width="match_parent"
         layout="@layout/header_information"
-        />
-    <TextView
-        android:layout_height="wrap_content"
         android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marg_left"
         android:text="@string/foto"
-        android:textSize="16dp"
-        android:layout_marginLeft="@dimen/marg_left"
+        android:textSize="@dimen/text_size_information"
 
 
         />
+
     <ImageView
-        android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:src="@drawable/image_3"
+        android:layout_height="wrap_content"
         android:adjustViewBounds="true"
+        android:contentDescription="@string/fotos"
+        android:src="@drawable/image_3"
 
         />
+
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="2dp"
-        />
+        android:layout_height="2dp" />
+
     <ImageView
-        android:layout_height="wrap_content"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:adjustViewBounds="true"
-        android:src="@drawable/image_2"
+        android:contentDescription="@string/fotos"
         android:scaleType="fitXY"
+        android:src="@drawable/image_2"
 
         />
 
     <include
-        android:layout_height="match_parent"
-        android:layout_width="match_parent"
         layout="@layout/footer_information"
-        />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>
-</merge>

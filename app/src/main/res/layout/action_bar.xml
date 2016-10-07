@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="@dimen/hieght_bar"
     android:background="@color/action_bar"
-
 
 
     android:orientation="horizontal">
@@ -12,52 +10,55 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="@dimen/marg_right"
+        android:layout_marginStart="@dimen/marg_left"
+        android:adjustViewBounds="true"
+        android:background="?attr/selectableItemBackground"
+        android:contentDescription="@string/menu"
         android:maxHeight="25dp"
         android:maxWidth="25dp"
-        android:src="@drawable/left_menu"
-        android:background="?attr/selectableItemBackground"
-        android:scaleType="fitXY"
-        android:adjustViewBounds="true"
-        android:layout_marginLeft="@dimen/marg_left"
-        android:layout_marginRight="@dimen/marg_right"
-        android:layout_gravity="center_vertical"
         android:onClick="startMenu"
-        android:contentDescription="menu"
+        android:scaleType="fitXY"
+        android:src="@drawable/left_menu"
 
 
         />
+
     <LinearLayout
-        android:layout_height="wrap_content"
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         android:clickable="true"
-        android:onClick="onClick"
-        >
+        android:onClick="onClick">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="@dimen/marg_right_bar"
+            android:layout_marginStart="@dimen/marg_left"
+            android:text="@string/news"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_action_bar"
+
+
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="6dp"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/menu"
+            android:src="@drawable/triangle"
+
+
+            />
+
+    </LinearLayout>
+
     <TextView
-        android:layout_gravity="center_vertical"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-
-        android:text="@string/news"
-        android:textSize="25dp"
-        android:layout_marginLeft="@dimen/marg_left"
-        android:layout_marginRight="@dimen/marg_right"
-
-
-        />
-
-    <ImageView
-        android:layout_height="6dp"
-        android:layout_width="wrap_content"
-        android:src="@drawable/triangle"
-        android:layout_gravity="center_vertical"
-
-
-        />
-
-        </LinearLayout>
-    <TextView
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="60"
 
@@ -67,19 +68,16 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:maxWidth="20dp"
-        android:maxHeight="20dp"
-        android:scaleType="fitXY"
-        android:adjustViewBounds="true"
-        android:layout_marginLeft="@dimen/marg_left"
-        android:layout_marginRight="@dimen/marg_right"
-        android:src="@drawable/search"
-        android:background="?attr/selectableItemBackground"
         android:layout_gravity="center_vertical"
-        />
-
-
+        android:layout_marginEnd="@dimen/marg_right"
+        android:layout_marginStart="@dimen/marg_left"
+        android:adjustViewBounds="true"
+        android:background="?attr/selectableItemBackground"
+        android:contentDescription="@string/search"
+        android:maxHeight="20dp"
+        android:maxWidth="20dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/search" />
 
 
 </LinearLayout>
-</merge>

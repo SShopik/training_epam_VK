@@ -13,10 +13,8 @@ import android.renderscript.ScriptIntrinsicBlur;
 import android.support.annotation.FloatRange;
 
 public class BitmapRound {
-    public static Bitmap getCircleMaskedBitmapUsingClip(Bitmap source, int radius)
-    {
-        if (source == null)
-        {
+    public static Bitmap getCircleMaskedBitmapUsingClip(Bitmap source, int radius) {
+        if (source == null) {
             return null;
         }
 
@@ -37,8 +35,8 @@ public class BitmapRound {
 
         return targetBitmap;
     }
-    public static Bitmap scaleTo(Bitmap source, int size)
-    {
+
+    public static Bitmap scaleTo(Bitmap source, int size) {
         int destWidth = source.getWidth();
 
         int destHeight = source.getHeight();
@@ -46,8 +44,7 @@ public class BitmapRound {
         destHeight = destHeight * size / destWidth;
         destWidth = size;
 
-        if (destHeight < size)
-        {
+        if (destHeight < size) {
             destWidth = destWidth * size / destHeight;
             destHeight = size;
         }

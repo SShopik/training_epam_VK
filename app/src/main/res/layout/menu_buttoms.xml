@@ -2,160 +2,172 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
 
-    <RelativeLayout
-        style="@style/layout_style"
-        >
+    <RelativeLayout style="@style/layout_style">
+
         <ImageView
             style="@style/button_image"
-            android:src="@drawable/news"
-            />
+            android:contentDescription="@string/news"
+            android:src="@drawable/news" />
+
         <TextView
             style="@style/button_text"
-            android:text="@string/menu_news"/>
+            android:text="@string/menu_news" />
     </RelativeLayout>
-    <RelativeLayout
-        style="@style/layout_style"
-        >
+
+    <RelativeLayout style="@style/layout_style">
+
         <ImageView
             style="@style/button_image"
-            android:src="@drawable/call"
-            />
+            android:contentDescription="@string/answer"
+            android:src="@drawable/call" />
+
         <TextView
             style="@style/button_text"
-            android:text="@string/answer"/>
+            android:text="@string/answer" />
     </RelativeLayout>
-    <RelativeLayout
-        style="@style/layout_style"
-        >
-    <ImageView
-        style="@style/button_image"
-        android:src="@drawable/mail"
-        />
-    <TextView
-        style="@style/button_text"
-        android:text="@string/sms"/>
-    </RelativeLayout>
-    <RelativeLayout
-        style="@style/layout_style"
-        >
+
+    <RelativeLayout style="@style/layout_style">
+
         <ImageView
             style="@style/button_image"
-            android:src="@drawable/person"
-            />
+            android:contentDescription="@string/sms"
+            android:src="@drawable/mail" />
+
         <TextView
             style="@style/button_text"
-            android:text="@string/Friends"/>
+            android:text="@string/sms" />
     </RelativeLayout>
-    <RelativeLayout
-        style="@style/layout_style"
-        >
+
+    <RelativeLayout style="@style/layout_style">
+
+        <ImageView
+            style="@style/button_image"
+            android:contentDescription="@string/Friends"
+            android:src="@drawable/person" />
+
+        <TextView
+            style="@style/button_text"
+            android:text="@string/Friends" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/layout_style">
+
         <ImageView
             android:id="@+id/group"
             style="@style/button_image"
-            android:src="@drawable/friends"
-            />
+            android:contentDescription="@string/group"
+            android:src="@drawable/friends" />
+
         <TextView
             style="@style/button_text"
-            android:text="@string/group"/>
+            android:text="@string/group" />
+
         <ImageView
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:maxWidth="25dp"
-            android:maxHeight="25dp"
-            android:scaleType="fitXY"
-            android:adjustViewBounds="true"
-            android:src="@drawable/squer_for_numbers"
+            android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="265dp"
-            />
+            android:layout_marginStart="@dimen/margin_square"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/square"
+            android:maxHeight="25dp"
+            android:maxWidth="25dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/squer_for_numbers" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="8"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="273dp"
+            android:layout_marginStart="@dimen/margin_unread_sms"
+            android:text="@string/unread_sms"
 
             />
     </RelativeLayout>
-    <RelativeLayout
-        style="@style/layout_style"
-        >
+
+    <RelativeLayout style="@style/layout_style">
+
         <ImageView
             style="@style/button_image"
-            android:src="@drawable/foto"
-            />
+            android:contentDescription="@string/fotos"
+            android:src="@drawable/foto" />
+
         <TextView
             style="@style/button_text"
-            android:text="@string/fotos"/>
+            android:text="@string/fotos" />
     </RelativeLayout>
-    <RelativeLayout
-        style="@style/layout_style"
-        >
+
+    <RelativeLayout style="@style/layout_style">
+
         <ImageView
             style="@style/button_image"
-            android:src="@drawable/films"
-            />
+            android:contentDescription="@string/vidios"
+            android:src="@drawable/films" />
+
         <TextView
             style="@style/button_text"
-            android:text="@string/vidios"/>
+            android:text="@string/vidios" />
     </RelativeLayout>
-    <RelativeLayout
-        style="@style/layout_style"
-        >
+
+    <RelativeLayout style="@style/layout_style">
+
         <ImageView
             style="@style/button_image"
-            android:src="@drawable/music"
-            />
+            android:contentDescription="@string/audio"
+            android:src="@drawable/music" />
+
         <TextView
             style="@style/button_text"
-            android:text="@string/audio"/>
+            android:text="@string/audio" />
     </RelativeLayout>
-    <RelativeLayout
-        style="@style/layout_style"
-        >
+
+    <RelativeLayout style="@style/layout_style">
+
         <ImageView
             style="@style/button_image"
-            android:src="@drawable/games"
-            />
+            android:contentDescription="@string/games"
+            android:src="@drawable/games" />
+
         <TextView
             style="@style/button_text"
-            android:text="@string/games"/>
+            android:text="@string/games" />
     </RelativeLayout>
-    <RelativeLayout
-        style="@style/layout_style"
-        >
+
+    <RelativeLayout style="@style/layout_style">
+
         <ImageView
             style="@style/button_image"
-            android:src="@drawable/stare"
-            />
+            android:contentDescription="@string/beast"
+            android:src="@drawable/stare" />
+
         <TextView
             style="@style/button_text"
-            android:text="@string/beast"/>
+            android:text="@string/beast" />
     </RelativeLayout>
-    <RelativeLayout
-        style="@style/layout_style"
-        >
+
+    <RelativeLayout style="@style/layout_style">
+
         <ImageView
             style="@style/button_image"
-            android:src="@drawable/search"
-            />
+            android:contentDescription="@string/search"
+            android:src="@drawable/search" />
+
         <TextView
             style="@style/button_text"
-            android:text="@string/search"/>
+            android:text="@string/search" />
     </RelativeLayout>
-    <RelativeLayout
-        style="@style/layout_style"
-        >
+
+    <RelativeLayout style="@style/layout_style">
+
         <ImageView
             style="@style/button_image"
-            android:src="@drawable/setings"
-            />
+            android:contentDescription="@string/setings"
+            android:src="@drawable/setings" />
+
         <TextView
             style="@style/button_text"
-            android:text="@string/setings"/>
+            android:text="@string/setings" />
     </RelativeLayout>
 
 </LinearLayout>

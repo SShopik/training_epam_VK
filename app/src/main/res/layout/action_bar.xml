@@ -39,6 +39,7 @@
             android:layout_marginEnd="@dimen/marg_right_bar"
             android:layout_marginStart="@dimen/marg_left"
             android:text="@string/news"
+            android:id="@+id/action_bar_news"
             android:textColor="@android:color/white"
             android:textSize="@dimen/text_size_action_bar"
 
